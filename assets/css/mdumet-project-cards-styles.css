@@ -1,0 +1,556 @@
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*====*     *===*     *==*      *=====*  *====*  *==*     *===*     *==*        *==*          *=========*        *==*         *==*     *===*     *==========*/
+/*====*  **  *=*  **  *==*  *==*  *===*  *====*  *==*  **  *=*  **  *==*  *============*  *=============*  *========*  *===*  *==*  **  *=*  **  *==========*/
+/*====*  *=*  *  *=*  *==*  *===*  *==*  *====*  *==*  *=*  *  *=*  *==*     *=========*  *=============*  *========*  *===*  *==*  *=*  *  *=*  *==========*/
+/*====*  *==*   *==*  *==*  *==*  *===*   *==*   *==*  *==*   *==*  *==*  *============*  *======   ====*  *========*  *===*  *==*  *==*   *==*  *==========*/
+/*====*  *=========*  *==*      *======*        *===*  *=========*  *==*        *======*  *======   ====*        *==*         *==*  *=========*  *==========*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*=======================================  Portfolio Site for Atlanta-based Photographer - Mauricio Dumet ==================================================*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+
+
+
+
+/*==================================================================================================================*/
+/*==================================================================================================================*/
+/*==================================                                     ===========================================*/
+/*==================================         Project Cards Styles        ===========================================*/
+/*==================================                                     ===========================================*/
+/*==================================================================================================================*/
+/*==================================================================================================================*/
+
+
+
+/*==================================================================*/
+/*=====================          CARDS         =====================*/
+/*==================================================================*/
+
+
+.img-card {
+	margin-bottom: 30px;
+}
+
+.card {
+	height: 400px;
+	padding-left: 0;
+	padding-right: 0;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+	/*background-color: #313335; */
+}
+
+.card .card-img{
+	display:block;
+	width:100%;
+	height:400px;
+	opacity:1;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card a {
+	text-decoration: none;
+}
+
+.card a p {
+	visibility:hidden;
+}
+
+.card a p.card-title {
+	text-align: center;
+	text-decoration: none;
+	margin-top: -230px;	
+	color:#313335;
+	font-size:36px;
+	font-weight: 700;
+}
+
+.card:hover{
+	box-shadow:0px 3px 7.5px #858585;
+}
+
+.card:hover .card-img{
+	opacity:.15;
+}
+
+.card:hover a p {
+	visibility:visible;
+}
+
+/*og_thumb.png*/
+
+
+/*==================================================================*/
+/*=====================         SHOOTS         =====================*/
+/*==================================================================*/
+
+
+
+@media (min-width: 768px) {
+	.card {
+		height: 240px;
+	}
+
+	.card .card-img{
+		height:240px;
+	}
+
+	.card a p.card-title {
+		margin-top: -140px;	
+	}
+}
+
+@media (min-width: 922px) {
+	.card {
+		height: 360px;
+	}
+
+	.card .card-img{
+		height:360px;
+	}
+
+	.card a p.card-title {
+		margin-top: -200px;	
+	}
+}
+
+
+
+/*==================================================================*/
+/*=====================         IMAGES         =====================*/
+/*==================================================================*/
+
+
+
+/*=====================         BARRIE         =====================*/
+
+.card .card-img.barrie{
+	background-image: url(../img/shoot/barrie/1b.jpg);
+}
+
+.card .card-img.barrie2{
+	background-image: url(../img/shoot/barrie/2b.jpg);
+}
+
+.card .card-img.barrie3{
+	background-image: url(../img/shoot/barrie/3b.jpg);
+}
+
+.card .card-img.barrie4{
+	background-image: url(../img/shoot/barrie/4b.jpg);
+}
+
+.card .card-img.barrie5{
+	background-image: url(../img/shoot/barrie/5b.jpg);
+}
+
+/*=====================         BRITTANI         =====================*/
+
+.card .card-img.brittani{
+	background-image: url(../img/shoot/brittani/1b.jpg);
+}
+
+.card .card-img.brittani2{
+	background-image: url(../img/shoot/brittani/2b.jpg);
+}
+
+/*=====================         CALLIE         =====================*/
+
+.card .card-img.callie{
+	background-image: url(../img/shoot/callie/1b.jpg);
+}
+
+.card .card-img.callie2{
+	background-image: url(../img/shoot/callie/2b.jpg);
+}
+
+.card .card-img.callie3{
+	background-image: url(../img/shoot/callie/3b.jpg);
+}
+
+.card .card-img.callie4{
+	background-image: url(../img/shoot/callie/4b.jpg);
+}
+
+/*=====================         ELENA         =====================*/
+
+.card .card-img.elena{
+	background-image: url(../img/shoot/elena/1b.jpg);
+}
+
+.card .card-img.elena2{
+	background-image: url(../img/shoot/elena/2b.jpg);
+}
+
+.card .card-img.elena3{
+	background-image: url(../img/shoot/elena/3b.jpg);
+}
+
+/*=====================         ELIZABETH         =====================*/
+
+.card .card-img.elizabeth{
+	background-image: url(../img/shoot/elizabeth/1b.jpg);
+}
+
+.card .card-img.elizabeth2{
+	background-image: url(../img/shoot/elizabeth/2b.jpg);
+}
+
+.card .card-img.elizabeth3{
+	background-image: url(../img/shoot/elizabeth/3b.jpg);
+}
+
+.card .card-img.elizabeth4{
+	background-image: url(../img/shoot/elizabeth/4b.jpg);
+}
+
+.card .card-img.elizabeth5{
+	background-image: url(../img/shoot/elizabeth/5b.jpg);
+}
+
+.card .card-img.elizabeth6{
+	background-image: url(../img/shoot/elizabeth/6b.jpg);
+}
+
+.card .card-img.elizabeth7{
+	background-image: url(../img/shoot/elizabeth/7b.jpg);
+}
+
+.card .card-img.elizabeth8{
+	background-image: url(../img/shoot/elizabeth/8b.jpg);
+}
+
+.card .card-img.elizabeth9{
+	background-image: url(../img/shoot/elizabeth/9b.jpg);
+}
+
+.card .card-img.elizabeth10{
+	background-image: url(../img/shoot/elizabeth/10b.jpg);
+}
+
+.card .card-img.elizabeth11{
+	background-image: url(../img/shoot/elizabeth/11b.jpg);
+}
+
+/*=====================         JACK         =====================*/
+
+.card .card-img.jack{
+	background-image: url(../img/shoot/jack/1b.jpg);
+}
+
+.card .card-img.jack2{
+	background-image: url(../img/shoot/jack/2b.jpg);
+}
+
+.card .card-img.jack3{
+	background-image: url(../img/shoot/jack/3b.jpg);
+}
+
+.card .card-img.jack4{
+	background-image: url(../img/shoot/jack/4b.jpg);
+}
+
+.card .card-img.jack5{
+	background-image: url(../img/shoot/jack/5b.jpg);
+}
+
+
+/*=====================         JESSICA         =====================*/
+
+.card .card-img.jessica{
+	background-image: url(../img/shoot/jessica/1b.jpg);
+}
+
+.card .card-img.jessica2{
+	background-image: url(../img/shoot/jessica/2b.jpg);
+}
+
+.card .card-img.jessica3{
+	background-image: url(../img/shoot/jessica/3b.jpg);
+}
+
+/*=====================         JOCEY         =====================*/
+
+.card .card-img.jocey{
+	background-image: url(../img/shoot/jocey/1b.jpg);
+}
+
+.card .card-img.jocey2{
+	background-image: url(../img/shoot/jocey/2b.jpg);
+}
+
+.card .card-img.jocey3{
+	background-image: url(../img/shoot/jocey/3b.jpg);
+}
+
+.card .card-img.jocey4{
+	background-image: url(../img/shoot/jocey/4b.jpg);
+}
+
+.card .card-img.jocey5{
+	background-image: url(../img/shoot/jocey/5b.jpg);
+}
+
+/*=====================         KELLY         =====================*/
+
+.card .card-img.kelly{
+	background-image: url(../img/shoot/kelly/7b.jpg);
+}
+
+.card .card-img.kelly2{
+	background-image: url(../img/shoot/kelly/1b.jpg);
+}
+
+.card .card-img.kelly3{
+	background-image: url(../img/shoot/kelly/2b.jpg);
+}
+
+.card .card-img.kelly4{
+	background-image: url(../img/shoot/kelly/3b.jpg);
+}
+
+.card .card-img.kelly5{
+	background-image: url(../img/shoot/kelly/4b.jpg);
+}
+
+.card .card-img.kelly6{
+	background-image: url(../img/shoot/kelly/5b.jpg);
+}
+
+.card .card-img.kelly7{
+	background-image: url(../img/shoot/kelly/6b.jpg);
+}
+
+/*=====================         MADISON         =====================*/
+
+.card .card-img.madison{
+	background-image: url(../img/shoot/madison/1b.jpg);
+}
+
+.card .card-img.madison2{
+	background-image: url(../img/shoot/madison/2b.jpg);
+}
+
+.card .card-img.madison3{
+	background-image: url(../img/shoot/madison/3b.jpg);
+}
+
+.card .card-img.madison4{
+	background-image: url(../img/shoot/madison/4b.jpg);
+}
+
+.card .card-img.madison5{
+	background-image: url(../img/shoot/madison/5b.jpg);
+}
+
+/*=====================         MARISSA         =====================*/
+
+.card .card-img.marissa{
+	background-image: url(../img/shoot/marissa/1b.jpg);
+}
+
+.card .card-img.marissa2{
+	background-image: url(../img/shoot/marissa/2b.jpg);
+}
+
+.card .card-img.marissa3{
+	background-image: url(../img/shoot/marissa/3b.jpg);
+}
+
+.card .card-img.marissa4{
+	background-image: url(../img/shoot/marissa/4b.jpg);
+}
+
+.card .card-img.marissa5{
+	background-image: url(../img/shoot/marissa/5b.jpg);
+}
+
+/*=====================         MEGAN         =====================*/
+
+.card .card-img.megan{
+	background-image: url(../img/shoot/megan/1b.jpg);
+}
+
+.card .card-img.megan2{
+	background-image: url(../img/shoot/megan/2b.jpg);
+}
+
+.card .card-img.megan3{
+	background-image: url(../img/shoot/megan/3b.jpg);
+}
+
+.card .card-img.megan4{
+	background-image: url(../img/shoot/megan/4b.jpg);
+}
+
+.card .card-img.megan5{
+	background-image: url(../img/shoot/megan/5b.jpg);
+}
+
+/*=====================         MIKE         =====================*/
+
+.card .card-img.mike{
+	background-image: url(../img/shoot/mike/1b.jpg);
+}
+
+.card .card-img.mike2{
+	background-image: url(../img/shoot/mike/2b.jpg);
+}
+
+.card .card-img.mike3{
+	background-image: url(../img/shoot/mike/3b.jpg);
+}
+
+.card .card-img.mike4{
+	background-image: url(../img/shoot/mike/4b.jpg);
+}
+
+.card .card-img.mike5{
+	background-image: url(../img/shoot/mike/5b.jpg);
+}
+
+.card .card-img.mike6{
+	background-image: url(../img/shoot/mike/6b.jpg);
+}
+
+/*=====================         REIHANEH         =====================*/
+
+.card .card-img.reihaneh{
+	background-image: url(../img/shoot/reihaneh/1b.jpg);
+}
+
+.card .card-img.reihaneh2{
+	background-image: url(../img/shoot/reihaneh/2b.jpg);
+	background-position-x:0%;
+}
+
+.card .card-img.reihaneh3{
+	background-image: url(../img/shoot/reihaneh/3b.jpg);
+}
+
+.card .card-img.reihaneh4{
+	background-image: url(../img/shoot/reihaneh/2b.jpg);
+	background-position-x:101%;
+}
+
+/*=====================         SAVANNAH         =====================*/
+
+.card .card-img.savannah{
+	background-image: url(../img/shoot/savannah/1b.jpg);
+}
+
+.card .card-img.savannah2{
+	background-image: url(../img/shoot/savannah/2b.jpg);
+}
+
+.card .card-img.savannah3{
+	background-image: url(../img/shoot/savannah/3b.jpg);
+}
+
+.card .card-img.savannah4{
+	background-image: url(../img/shoot/savannah/4b.jpg);
+}
+
+/*=====================         SOTO         =====================*/
+
+.card .card-img.soto{
+	background-image: url(../img/shoot/soto/thumb.jpg);
+}
+
+.card .card-img.soto2{
+	background-image: url(../img/shoot/soto/2b.jpg);
+	background-position-x:101%;
+}
+
+.card .card-img.soto3{
+	background-image: url(../img/shoot/soto/2b.jpg);
+	background-position-x:0%;
+}
+
+/*=====================         VICTORIA         =====================*/
+
+.card .card-img.victoria{
+	background-image: url(../img/shoot/victoria/1b.jpg);
+}
+
+.card .card-img.victoria2{
+	background-image: url(../img/shoot/victoria/2b.jpg);
+}
+
+.card .card-img.victoria3{
+	background-image: url(../img/shoot/victoria/3b.jpg);
+}
+
+.card .card-img.victoria4{
+	background-image: url(../img/shoot/victoria/4b.jpg);
+}
+
+.card .card-img.victoria5{
+	background-image: url(../img/shoot/victoria/5b.jpg);
+}
+
+/*=====================         ZERO-X         =====================*/
+
+.card .card-img.zerox{
+	background-image: url(../img/shoot/zerox/1b.jpg);
+}
+
+.card .card-img.zerox2{
+	background-image: url(../img/shoot/zerox/2b.jpg);
+}
+
+.card .card-img.zerox3{
+	background-image: url(../img/shoot/zerox/3b.jpg);
+}
+
+.card .card-img.zerox4{
+	background-image: url(../img/shoot/zerox/4b.jpg);
+}
+
+.card .card-img.zerox5{
+	background-image: url(../img/shoot/zerox/5b.jpg);
+}
+
+
+/*==============================================================================*/
+/*==============================================================================*/
+/*==============================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

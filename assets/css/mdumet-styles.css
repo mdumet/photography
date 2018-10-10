@@ -1,0 +1,405 @@
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*====*     *===*     *==*      *=====*  *====*  *==*     *===*     *==*        *==*          *=========*        *==*         *==*     *===*     *==========*/
+/*====*  **  *=*  **  *==*  *==*  *===*  *====*  *==*  **  *=*  **  *==*  *============*  *=============*  *========*  *===*  *==*  **  *=*  **  *==========*/
+/*====*  *=*  *  *=*  *==*  *===*  *==*  *====*  *==*  *=*  *  *=*  *==*     *=========*  *=============*  *========*  *===*  *==*  *=*  *  *=*  *==========*/
+/*====*  *==*   *==*  *==*  *==*  *===*   *==*   *==*  *==*   *==*  *==*  *============*  *======   ====*  *========*  *===*  *==*  *==*   *==*  *==========*/
+/*====*  *=========*  *==*      *======*        *===*  *=========*  *==*        *======*  *======   ====*        *==*         *==*  *=========*  *==========*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*=======================================  Portfolio Site for Atlanta-based Photographer - Mauricio Dumet ==================================================*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+/*==========================================================================================================================================================*/
+
+
+
+
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/*==================================                              ===========================================*/
+/* =================================         Global Styles        ========================================== */
+/*==================================                              ===========================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+
+
+
+/* === Global Styles - X-Small Screen === */
+
+body {
+	font-size: 16px;
+}
+
+/* =================================         Navbar        ========================================== */
+.navbar {
+	height: 50px;
+	background-color: #ffffff; 
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 9px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+ .navbar-header .title {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+ 	visibility: visible;
+ 	font-size: 22px;
+	color: #313335;
+	 	font-family: 'Montserrat', sans-serif;
+	 	font-weight: 700;
+	 	text-transform: uppercase;
+ }
+
+.navbar-inverse .navbar-header .title {
+	color: #ffffff;
+}
+
+.navbar-inverse {
+	box-shadow: 0px 0px 10px #313335;
+    background-color: #313335;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #313335;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar .navbar-nav>li>a {
+	color: #313335;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.navbar-collapse {
+	background-color: #313335;
+	border-top: 1px;
+}
+
+.navbar-collapse .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-collapse .navbar-nav>li>a:hover {
+	color: #f4f4f4;
+	background-color: transparent;
+}
+
+
+/* =================================         H2 - Title        ========================================== */
+
+h2.title {
+	padding-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+
+
+/* =================================         Footer        ========================================== */
+
+footer{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	background-color:#313335;
+}
+
+footer .copyright{
+	text-align:center;
+	height:60px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	/*line-height:20px;*/
+	font-size:14px;
+	padding-bottom: 20px;
+}
+
+
+
+/* === Global Styles - Small Screen === */
+
+@media (min-width: 768px) {
+
+	/*Navbar*/
+
+	.navbar {
+		height: 50px;
+		background-color: #ffffff;
+		transition:all 0.5s ease;
+	}
+
+	.navbar-inverse{
+		background-color:#313335;
+	}
+
+
+	.navbar .container-fluid {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	.navbar .navbar-header {
+		padding-left: 30px;
+	}
+
+	.navbar-brand {
+	    float: left;
+	    padding: 7.5px 15px 7.55px 20px; 
+	    transition:all 0.5s ease;
+	}
+
+	.navbar-header .title {
+	    position: absolute;
+	    top: 16px;
+	    left: 90px;
+	 	color: #313335;
+	 	font-family: 'Montserrat', sans-serif;
+	 	font-weight: 700;
+	 	text-transform: uppercase;
+	 	visibility: visible;
+	 }
+
+	.navbar-toggle {
+	    padding: 10px 10px;
+	    margin-top: 15px;
+	    margin-right: 15px;
+	    margin-bottom: 8px;
+	}
+
+	.navbar .navbar-nav {
+	    padding-right: 30px;
+	}
+
+	.navbar .navbar-nav>li>a {
+	    color: #313335;
+	    font-weight:bold;
+	    text-transform:uppercase;
+	    text-align:center;
+	    background-color: transparent;
+	}
+
+	.navbar .navbar-nav>li>a:hover {
+	    cursor:pointer;
+	    color: #888888;
+	    border-bottom:2px #313335 solid;
+	    padding-bottom:5px;
+	}
+
+	.navbar-inverse .navbar-nav>li>a {
+	    color: #ffffff;
+	    font-weight:bold;
+	    text-transform:uppercase;
+	    text-align:center;
+	    background-color: transparent;
+	}
+
+	.navbar-inverse .navbar-nav>li>a:hover {
+	    cursor:pointer;
+	    color: #888888;
+	    border-bottom:2px #f4f4f4 solid;
+	    padding-bottom:5px;
+	}
+
+	.navbar .navbar-collapse {
+		background-color: #ffffff;
+	}
+
+	.navbar-inverse .navbar-collapse {
+		background-color: #313335;
+	}
+
+
+	/* =================================         Footer        ========================================== */
+
+	footer{ 
+		background-color: #313335;
+	}
+
+	footer .footer-links{
+		width:50%;
+		margin:30px 25% 25px;
+	}
+
+
+	footer .copyright{
+		text-align:center;
+		width:100%;
+		height:60px;
+		margin:0 auto 20px;
+		padding:0;
+		color: #ffffff;
+	}
+
+/*	footer .copyright p{
+		line-height:40px;
+	}*/	
+
+}
+
+.jumbotron.main.about .container .about-text h1{
+	text-align: left;
+	font-size: 42px;
+}
+
+.jumbotron.main.about .container .about-text h2{
+	text-align: left;
+	font-size: 24px;
+}
+
+.jumbotron.main.about .container .about-text h3{
+	text-align: left;
+	font-size: 20px;
+}
+
+.jumbotron.main.about .container .about-text p{
+	text-align: left;
+	font-size: 18px;
+}
+
+
+
+/* === Global Styles - Medium Screen === */
+
+@media (min-width: 992px) {
+
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/* =================================         Shoot Styles        =========================================== */
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+
+/* === Shoot Styles - X-Small Screen === */
+
+/*Jumbotron*/
+
+.jumbotron.main {
+	background-color: #ffffff;
+	padding-bottom: 15px;
+	padding-top: 0px;
+    margin-bottom: 0;
+}
+
+.jumbotron.main h1 {
+	color: #313335;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.jumbotron.main h2 {
+	color: #313335;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.jumbotron.main p {
+	color: #313335;
+	margin-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.jumbotron.shoots {
+	background-color: #ffffff;
+	/*margin-bottom: 0;*/
+    padding-bottom: 10px;	
+}
+
+
+
+/*CTA*/
+.jumbotron.cta {
+	background-color: #313335;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	/*border-bottom: 1px solid #f4f4f4;*/
+}
+
+.jumbotron.cta p {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 18px;
+}
+
+.btn-primary {
+	color: #313335;
+	background-color: #ffffff;
+	border: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	color: #313335;
+	background-color: #5a5b5d;
+	border: none;
+    outline: none;
+}
+
+.btn-lg {
+	padding: 5px 30px;
+    font-size: 18px;
+    border-radius: 0;
+    margin-left: 10px;
+
+}
+
+.about-img {
+	background-image: url(../img/about-img.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0px auto;
+}
+
+@media (min-width: 768px) {
+	.about-img {
+		width: 220px;
+		height: 220px;
+		margin: 50px auto;
+	}
+}
+
+@media (min-width: 992px) {
+	.about-img {
+		width: 240px;
+		height: 240px;
+		margin: 50px auto;
+	}
+}
